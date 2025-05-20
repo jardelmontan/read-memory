@@ -19,7 +19,7 @@ var memory = new MemoryHelper(process, "processName.exe");
 #### Sample code to read a value from memory:
 
 ```
-var process = memory.ReadMemoryAddress("0x002B117C");
+var value = memory.ReadMemoryAddress("0x002B117C");
 ```
 
 ### ⚠️ Note
